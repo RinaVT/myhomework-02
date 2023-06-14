@@ -1,0 +1,110 @@
+/**
+  * SimpleAdaptiveSlider by itchief (https://github.com/itchief/ui-components/tree/master/simple-adaptive-slider)
+  * Copyright 2020 - 2022 Alexander Maltsev
+  * Licensed under MIT (https://github.com/itchief/ui-components/blob/master/LICENSE)
+  */
+
+/* стили для корневого элемента слайдера */
+.itcss {
+  position: relative;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* стили для wrapper */
+.itcss__wrapper {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  border: 2px solid var(--bg-color-yellow);
+  box-shadow: 2px 8px 16px rgba(194, 198, 208, 0.06);
+  border-radius: 5px;
+}
+
+/* стили для элемента, в котором непосредственно расположены элементы (слайды) */
+.itcss__items {
+  display: flex;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+/* стили для элементов */
+.itcss__item {
+  position: relative;
+  flex: 0 0 100%;
+  max-width: 100%;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.flex-reviews{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 84px;
+  padding: 70px 143px;
+}
+
+.flex-reviews__text{
+  display: flex;
+  flex-direction: column;
+  width: 47.21%;
+}
+
+.flex-reviews__text img{
+  margin-bottom: 30.5px;
+  width: 40px;
+  height: 27.5px;
+}
+
+.flex-reviews__text h4{
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-h4);
+  line-height: 143%;
+  margin-bottom: 24px;
+}
+
+.flex-reviews__text p{
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-light);
+  line-height: 170%;
+}
+
+.flex-reviews__foto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-reviews__foto img{
+  border: 2px solid #FFB600;
+  border-radius: 1000px;
+  margin-bottom: 30px;
+}
+
+.flex-reviews__foto h5{
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-height);
+  line-height: 143%;
+  margin-bottom: 6px;
+}
+
+.flex-reviews__foto h6{
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-medium);
+  line-height: 170%;
+  color: #A6AEB6;
+}
+
+/* класс для отключения transition */
+.transition-none {
+  transition: none;
+}
+
+.itcss__indicators {
+  display: none;
+}

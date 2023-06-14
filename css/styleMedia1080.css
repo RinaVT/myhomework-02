@@ -1,0 +1,282 @@
+@media (max-width: 1081px){
+    .wrapper{
+        width: 90.43%;
+    }
+
+    .universal-h2{
+        font-size: 36px;
+        line-height: 47.88px;
+    }
+
+    /* СЕКЦИЯ heading */
+
+    .heading{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .logo__heading img{
+        width: 250px;
+        height: 60px;
+    }
+
+    /* .info__heading{
+        display: none;
+    } */
+
+    .basket-buy__heading{
+        gap: 1px;
+        width: 118px;
+        height: 55.47px;
+
+        font-size: 21px;
+        line-height: 34.32px;
+    }
+
+    .block-icon__basket-buy img{
+        width: 50.85px;
+        height: 43.87px;
+    }
+
+    /* секция heading-content */
+
+    .heading-content{
+        padding-top: 38px;
+        padding-bottom: 68px;
+        background-image: url(../img/fone.png);
+    }
+
+    .block__heading-content{
+        margin-left: 0;
+    }
+
+    .block-text__content{
+        text-align: center;
+        text-shadow: none;
+        -webkit-text-stroke: 0.1em #000000;
+    }
+
+    .block-link__blocks{
+        position: relative;
+        margin-left: 38%;
+    }
+
+    .btn__heading-content{
+        padding: 24px 35.5px;
+
+        font-size: 21px;
+        line-height: 152%;
+    }
+
+    .btn__heading-content:hover{
+        background-color: var(--bg-color-blue-light);
+        color: var(--white-color-color);
+    }
+
+    /* секция pizza */
+
+    .pizza{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .blocks__pizza{
+        gap: 70px;
+    }
+
+    .flex-conteiner__pizza{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+        align-items: none;
+        flex-wrap: wrap;
+    }
+
+    .flex-item__flex-conteiner{
+        width: 42.07%;
+    }
+
+    /* секция about-us */
+
+    .about-us{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .blocks__about-us{
+        gap: 30px;
+    }
+
+    .flex-conteiner__about-us{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: none;
+        gap: 30px;
+    }
+
+    .flex-item__about-us{
+        width: 63.07%;
+    }
+
+    .about-us_width-paragraph{
+        width: 82.31%;
+    }
+
+    /* секция reviews */
+
+    .reviews{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .blocks__reviews{
+        gap: 70px;
+    }
+
+    .block-slider__reviews{
+        gap: 50px;
+    }
+
+    .flex-reviews{
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        gap: 54px;
+        padding: 70px 60px 70px 30px;
+        width: 100%;
+    }
+      
+    .flex-reviews__text{
+        width: 90%;
+        text-align: center;
+    }
+      
+    .flex-reviews__text h4{
+        font-size: 28px;
+        margin-bottom: 24px;
+        margin-left: 15%;
+        width: 70%;
+    }
+      
+    .flex-reviews__foto{
+        width: 66%;
+    }
+      
+    .flex-reviews__foto img{
+        width: 300px;
+        height: 300px;
+    }
+
+    /* секция set-reviews */
+
+    .set-reviews{
+        padding-top: 90px;
+        padding-bottom: 87px;
+    }
+
+    .flex-container__set-reviews{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .flex-item-text__set-reviews{
+        align-items: center;
+    }
+    
+    .flex-item-text__set-reviews h2{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .list-reasons{
+        width: 50.35%;
+        margin-left: 11%;
+    }
+    
+    .button__set-reviews{
+        width: 40.46%;
+    }
+
+    .flex-item-img__set-reviews{
+        display: none;
+    }
+
+    /* секция contacts */
+
+    .contacts{
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    .flex-container__contacts{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: none;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .flex-text__contacts{
+        width: 101%;
+        align-items: center;
+    }
+
+    .flex-item-text__contacts{
+        text-align: center;
+    }
+
+    .flex-item-text__contacts:nth-of-type(1)>p{
+        width: 100%;
+    }
+
+    .flex-item-text__contacts:nth-of-type(2)>p{
+        width: 100%;
+    }
+
+    .flex-container__map-contacts{
+       width: 52.3%; 
+    }
+
+
+    /* секция footer */
+
+    .footer{
+        padding-top: 40px;
+        padding-bottom: 31px;
+        width: 100%;
+    }
+
+    .flex-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+    }
+
+    /* секция modal-window */
+    
+    .modal-content{
+        width: 100%;
+        padding: 50px 30px;
+    }
+    
+    .modal-close img{
+        width: 28px;
+        height: 28px;
+    }
+    
+    input[type="checkbox"]{
+        width: 14px;
+        height: 14px;
+    }
+
+
+
+
+
+
+
+}
